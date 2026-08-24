@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Dark Background -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="270"
+                android:startColor="#07121F"
+                android:centerColor="#0A1E33"
+                android:endColor="#030812"/>
+        </shape>
+    </item>
+
+    <!-- Glow Overlay -->
+    <item android:top="0dp">
+        <shape>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="450dp"
+                android:centerX="85%"
+                android:centerY="10%"
+                android:startColor="#4038BDF8"
+                android:endColor="@android:color/transparent"/>
+        </shape>
+    </item>
+
+</layer-list>
